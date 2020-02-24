@@ -1,0 +1,73 @@
+/* MAIN.CSS */
+/* 
+@import colors...
+@import vars...
+@import styles
+*/
+body {
+  background: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  background: white;
+}
+
+header {
+  background: grey;
+  text-align: center;
+}
+
+nav {
+
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+.flexboxxy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 1.3em;
+}
+
+.flexItems {
+  flex-basis: 30%;
+
+}
+
+.list {
+  border: 1px solid black;
+}
+.list h4 {
+  text-align: center;
+}
+
+.topSection {
+
+}
+
+.topSection img {
+  max-width: 100%;
+}
+
+.topSection h2 {
+  text-align: center;
+}
+
+
