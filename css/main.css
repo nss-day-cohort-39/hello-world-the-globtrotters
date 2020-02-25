@@ -1,7 +1,6 @@
-/* MAIN.CSS */
-@import "../css/_colors.css";
-@import "../css/_nav.css";
-@import "../css/home.css";
+@import "./_colors.css";
+@import "./_nav.css";
+@import "./home.css";
 
 body {
   background: whitesmoke;
@@ -26,11 +25,6 @@ header h1 {
   margin-top: 0;
 }
 
-/* >>>>>>>>>>>>>>>>>>>>> */
-/* >>>>>>>>>>>>>>>>>>>>> */
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .flexboxxy {
   display: flex;
