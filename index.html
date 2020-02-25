@@ -8,22 +8,21 @@
   <title>Hello world Globtrotters!</title>
   <link rel="stylesheet" href="home.css">
 </head>
-
-<body>
+<body class="index">
   <main class="container">
     
     <header>
       <h1>Hello World!</h1>  
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <!-- <li><a href="australia.html">Australia</a></li> -->
-          <li><a href="turkey.html">Turkey</a></li>
-          <li><a href="sweden.html">Sweden</a></li>
-          <li><a href="greece.html">Greece</a></li>
-          <li><a href="thailand.html">Thailand</a></li>
+          <li><a class="index" href="index.html">Home</a></li>
+          <!-- <li><a class="australia" href="australia.html">Australia</a></li> -->
+          <li><a class="turkey" href="turkey.html">Turkey</a></li>
+          <li><a class="sweden" href="sweden.html">Sweden</a></li>
+          <li><a class="greece" href="greece.html">Greece</a></li>
+          <li><a class="thailand" href="thailand.html">Thailand</a></li>
         </ul>
-      </nav>    
+      </nav>
     </header>
 
 <section class="home-countries">
@@ -36,6 +35,7 @@
           <div>Country: Turkey</div>
           <div>Population: 83.3 million</div>
           <div>Language: Turkish</div>
+          <div><a href="turkey.html">Visit Turkey!</a></div>
           <button class="button-close" id="close-turkey">Close</button>
         </dialog>  
     </section>
@@ -49,6 +49,7 @@
         <div>Country: Sweden</div>
         <div>Population: 10.2 million</div>
         <div>Language: Swedish</div>
+        <div><a href="sweden.html">Visit Sweden!</a></div>
         <button class="button-close" id="close-sweden">Close</button>
       </dialog>  
     </section>
@@ -62,6 +63,7 @@
         <div>Country: Greece</div>
         <div>Population: 10.74 million</div>
         <div>Language: Greek</div>
+        <div><a href="greece.html">Visit Greece!</a></div>
         <button class="button-close" id="close-greece">Close</button>
       </dialog>  
     </section>
@@ -75,6 +77,7 @@
         <div>Country: Thailand</div>
         <div>Population: 69.04 million</div>
         <div>Language: Thai</div>
+        <div><a href="thailand.html">Visit Thailand!</a></div>
         <button class="button-close" id="close-thailand">Close</button>
       </dialog>  
   </section>
@@ -82,6 +85,6 @@
 
 
   </main>
-  <script src="main.js"></script>
+  <script type="module" src="main.js"></script>
 </body>
 </html>
