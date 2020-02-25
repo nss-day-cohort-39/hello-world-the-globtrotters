@@ -1,0 +1,50 @@
+
+.index > main > header > nav > ul > li > a.index {
+  color: var(--blue-md);
+}
+
+.greece > main > header > nav > ul > li > a.greece {
+  color: var(--blue-md);
+}
+
+.australia > main > header > nav > ul > li > a.australia {
+  color: var(--blue-md);
+}
+.turkey > main > header > nav > ul > li > a.turkey {
+  color: var(--blue-md);
+}
+.sweden > main > header > nav > ul > li > a.sweden {
+  color: var(--blue-md);
+}
+
+.thailand > main > header > nav > ul > li > a.thailand {
+  color: var(--blue-md);
+}
+
+nav {
+
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  color: var(--blue-md);
+}
+
+
+nav li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--black);
+}
+
