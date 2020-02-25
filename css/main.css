@@ -1,7 +1,7 @@
 /* MAIN.CSS */
 @import "../css/_colors.css";
 @import "../css/_nav.css";
-
+@import "../css/home.css";
 
 body {
   background: whitesmoke;
@@ -51,9 +51,6 @@ header h1 {
   text-align: center;
 }
 
-.topSection {
-
-}
 
 .topSection img {
   max-width: 100%;
