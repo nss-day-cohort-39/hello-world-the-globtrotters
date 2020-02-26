@@ -1,13 +1,12 @@
 @import "./_colors.css";
 @import "./_nav.css";
 @import "./home.css";
+@import "./_turkey.css";
 
 body {
   background: whitesmoke;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
 
 main {
   width: 90%;
@@ -45,6 +44,15 @@ header h1 {
   text-align: center;
 }
 
+.turkey header nav ul {
+  /* padding: 0 1em; */
+  /* margin: 0 1em; */
+}
+
+.turkey header nav ul li {
+  /* padding: 0 1em; */
+  margin: 0 .5em;
+}
 
 .topSection img {
   max-width: 100%;
