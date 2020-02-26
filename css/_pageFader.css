@@ -1,0 +1,17 @@
+@keyframes turkey__backFader {
+  from {
+    background-color: rgb(98,30,2);
+  }
+  to {
+    background: linear-gradient(
+    0deg, 
+    rgba(98,30,2,1) 0%,
+    rgba(98,30,2,1) 20%, 
+    rgba(247,169,18,1) 40%, 
+    rgba(247,169,18,1) 50%, 
+    rgba(227,77,10,1) 55%, 
+    rgba(227,77,10,1) 60%, 
+    rgba(87,130,38,1) 80%, 
+    rgba(87,130,38,1) 100%);
+  }
+}
