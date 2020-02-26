@@ -2,6 +2,8 @@
 @import "./_nav.css";
 @import "./home.css";
 @import "./_turkey.css";
+@import "./sweden.css";
+@import "./greece.css";
 
 body {
   background: whitesmoke;
