@@ -19,8 +19,14 @@ body.turkey.dark-mode {
   padding: 0em 0 1em;
 }
 
+.turkey.dark-mode nav {
+  color: white;
+  background: black;
+}
+
 .turkey.dark-mode nav ul {
   color: white;
+  background: black;
 }
 
 .turkey.dark-mode nav ul li {

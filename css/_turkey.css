@@ -1,6 +1,7 @@
 @import './_pageFader.css';
 @import './_turkey_dark.css';
-@import './swicth.css';
+@import './switch.css';
+
 body.turkey {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   background: rgb(98,30,2);
@@ -72,7 +73,6 @@ footer.turkey_footer {
 
 .turkey_footer hr {
   margin: 0 0 1.5em;
-  /* border: 2px dotted red; */
   outline: none;
 }
 
