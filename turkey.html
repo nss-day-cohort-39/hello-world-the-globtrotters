@@ -9,6 +9,11 @@
 <body class="turkey">
   <main class="container">
     <header>
+      <button onclick="myFunction()">Toggle</button>
+      <!-- <label id="darkModeSwitch" class="switch">
+        <input type="checkbox" onclick="myFunction()">
+        <span class="slider round"></span>
+      </label> -->
       <h1>Hello World!</h1>  
       <nav>
         <ul>
@@ -82,5 +87,11 @@
   </footer>
 
   <script type="module" src="main.js"></script>
+  <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
 </body>
 </html>
