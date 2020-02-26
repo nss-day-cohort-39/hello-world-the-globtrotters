@@ -1,0 +1,54 @@
+.sweden__container {
+    background-color: rgba(67, 114, 201, 0.322);
+}
+
+.sweden__items {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+0% {border-radius: 0em;
+    border-color: black;}
+50% {border-radius: 1em;
+    border-color: rgb(73, 73, 126);
+border-width: .2em;}
+100% {border-radius: 0em;
+    border-color: black}
+}
+
+.sweden__footer {
+    width: 90% auto;
+
+}
+
+.footer__sweden__list {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1.3em 0;
+    list-style-type: none;
+    background-color: rgb(206, 206, 206);
+}
+
+.footer__sweden__list__items {
+    font-weight: bolder;
+}
+
+.sweden__itinerary {
+    margin: 2em;
+}
+.sweden__itinerary__title {
+    font-weight: 700;
+    text-align: center;
+}
+.sweden__itinerary__list {
+    margin-top: 1em;
+    border: solid 2px black;
+    border-radius: 1em;
+}
+
+.sweden__itinerary__list__items {
+    margin: .5em 1.5em;
+    font-style: italic;
+}

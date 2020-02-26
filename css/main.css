@@ -1,6 +1,7 @@
 @import "./_colors.css";
 @import "./_nav.css";
 @import "./home.css";
+@import "./sweden.css";
 
 body {
   background: whitesmoke;
