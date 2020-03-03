@@ -5,7 +5,7 @@
 body.turkey {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   background: rgb(98,30,2);
-  /* background: linear-gradient(
+  background: linear-gradient(
     0deg, 
     rgba(98,30,2,1) 0%,
     rgba(98,30,2,1) 20%, 
@@ -14,9 +14,9 @@ body.turkey {
     rgba(227,77,10,1) 55%, 
     rgba(227,77,10,1) 60%, 
     rgba(87,130,38,1) 80%, 
-    rgba(87,130,38,1) 100%); */
+    rgba(87,130,38,1) 100%); 
     animation-name: turkey__backFader;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-timing-function: ease-in;
 }
 
@@ -24,6 +24,9 @@ body.turkey {
   background: rgba(255, 255, 255, 1);
   text-align: center;
   padding: 1em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .turkey main {
@@ -89,7 +92,7 @@ footer.turkey_footer {
 }
 
 
-.turkey .flexboxxy {
+.turkey .flexbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

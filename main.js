@@ -1,6 +1,6 @@
-// import initializeDetailButtonEvents from './dialog.js'
+import initializeDetailButtonEvents from './dialog.js'
 
-// initializeDetailButtonEvents()
+initializeDetailButtonEvents()
 
-import turkey from './scripts/turkey/turkey.js'
-turkey()
+// import turkey from './scripts/turkey/turkey.js'
+// turkey()

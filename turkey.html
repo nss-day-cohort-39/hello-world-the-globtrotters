@@ -9,9 +9,8 @@
 <body class="turkey">
   <main class="container">
     <header>
-      <!-- <button onclick="myFunction()">Toggle</button> -->
       <label class="switch darkModeSwitch">
-        <input type="checkbox" onclick="myFunction()">
+        <input type="checkbox" onclick="darkMode()">
         <span class="slider round"></span>
       </label>
       <h1 class="mainHead">Hello World!</h1>  
@@ -31,11 +30,11 @@
     <section class="country">
       
       <div class="topSection">
-        <img class="countryImg" src="https://cdn.britannica.com/03/189803-050-871B95C4/Hagia-Sophia-Istanbul.jpg" alt="" >
+        <img class="countryImg" src="./images/hagia-sophia.jpg" alt="Hagia Sopia" >
         <h2>Turkey</h2>
       </div>
 
-      <section class="flexboxxy">
+      <div class="flexbox">
 
         <div class="list flexItems">
           <h4>Major Cities</h4>
@@ -65,8 +64,8 @@
           </ul>
         </div>
 
+      </div>
 
-      </section>
     </section>
     
   </main>
@@ -79,9 +78,9 @@
     </div>
   </footer>
 
-  <script type="module" src="main.js"></script>
+  <script type="module" src="./scripts/turkey/turkey.js"></script>
   <script>
-    function myFunction() {
+    function darkMode() {
       var element = document.body;
       element.classList.toggle("dark-mode");
     }

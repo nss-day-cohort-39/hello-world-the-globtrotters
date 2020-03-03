@@ -20,9 +20,6 @@ header {
   background: rgb(255, 255, 255);
   text-align: center;
   padding: 1em 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
 }
 
 header label {

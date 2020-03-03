@@ -1,5 +1,8 @@
 const turkey = () => {}
 
+import darkMode from "./darkMode.js"
+darkMode
+
 import { useCities } from "./CityDataProvider.js"
 import { useLandmarks } from "./LandmarkDataProvider.js"
 import { useLeaders } from "./LeaderDataProvider.js"
@@ -14,7 +17,7 @@ const citiesList = () => {
   const City = cityObject => {
     return `<li>${cityObject}</li>`
   }
-  const citiesUl = document.querySelector(".cities")
+  const citiesUl = document.querySelector(".turkey .cities")
   const cityObjectArray = useCities()
   let cityHTMLRepresentations = "" 
   
@@ -31,7 +34,7 @@ const landmarksList = () => {
   const Landmark = landmarkObject => {
     return `<li>${landmarkObject}</li>`
   }
-  const landmarksUl = document.querySelector(".landmarks")
+  const landmarksUl = document.querySelector(".turkey .landmarks")
   const landmarkObjectArray = useLandmarks()
   let landmarkHTMLRepresentations = ""
 
@@ -48,7 +51,7 @@ const leadersList = () => {
   const Leader = leaderObject => {
     return `<li>${leaderObject}</li>`
   }
-  const leadersUl = document.querySelector(".leaders")
+  const leadersUl = document.querySelector(".turkey .leaders")
   const leaderObjectArray = useLeaders()
   let leaderHTMLRepresentations = ""
 
@@ -65,7 +68,7 @@ const itineraryList = () => {
   const Itinerary = itineraryObject => {
     return `<li>${itineraryObject}</li>`
   }
-  const itineraryUl = document.querySelector(".itinerary")
+  const itineraryUl = document.querySelector(".turkey .itinerary")
   const itineraryObjectArray = useItinerary()
   let itineraryHTMLRepresentations = ""
 
