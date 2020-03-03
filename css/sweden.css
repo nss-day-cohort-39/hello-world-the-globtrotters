@@ -46,6 +46,23 @@
     margin-bottom: .2em;
 }
 
+/* Styling for Swedish landmarks section */
+
+.swedish__leader__list {
+    display: flex;
+    margin: 0em 1em;
+    justify-content: space-between;
+}
+
+.swedish__leader__names { 
+    font-weight: bold;
+}
+
+.swedish__leader__title {
+    font-weight: lighter;
+    font-style: italic;
+}
+
 
 .sweden__footer {
     width: 90% auto;
