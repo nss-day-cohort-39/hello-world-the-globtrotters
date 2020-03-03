@@ -8,4 +8,6 @@ const leaders = [
   }
 ]
 
-export default leaders
+export const useLeaders = () => {
+  return leaders.slice()
+}

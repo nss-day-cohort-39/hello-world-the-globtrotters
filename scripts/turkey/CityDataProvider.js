@@ -8,4 +8,6 @@ const cities = [
   }
 ]
 
-export default cities
+export const useCities = () => {
+  return cities.slice()
+}

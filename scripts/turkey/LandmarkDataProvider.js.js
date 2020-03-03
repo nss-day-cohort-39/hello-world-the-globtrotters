@@ -8,5 +8,6 @@ const landmarks = [
   }
 ]
 
-export default landmarks
-
+export const useLandmarks = () => {
+  return landmarks.slice()
+}
