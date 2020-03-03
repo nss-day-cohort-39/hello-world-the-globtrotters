@@ -11,6 +11,14 @@ const swedishCities = [
     name:"Malmö",
     population: "316,000"
     },
+    {
+    name:"Uppsala",
+    population: "160,000"
+    },
+    {
+    name:"Västerås",
+    population: "122,000"
+    },
 ]
 
 export const useCities = () => {

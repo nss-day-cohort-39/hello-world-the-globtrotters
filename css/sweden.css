@@ -13,11 +13,12 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+/* Styling for Swedish cities section */
 
 .swedish__city__list {
     display: flex;
     margin: 0em 1em;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 .swedish__city__names { 
@@ -29,6 +30,21 @@
     font-style: italic;
 }
 
+/* Styling for Swedish landmarks section */
+
+.swedish__landmark__container {
+    text-align: center;
+}
+
+.swedish__landmark__names {
+    font-weight: bold;
+}
+
+.swedish__landmark__description {
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: .2em;
+}
 
 
 .sweden__footer {
