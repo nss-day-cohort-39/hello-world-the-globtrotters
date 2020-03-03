@@ -1,0 +1,81 @@
+body.turkey.dark-mode {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background: black;
+  animation-name: turkey__backFader;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+}
+
+.turkey.dark-mode header   {
+  background:black;
+  text-align: center;
+  padding: 1em 0;
+  color: white;
+}
+
+.turkey.dark-mode main {
+  background: rgba(0, 0, 0, .5);
+  text-align: center;
+  padding: 0em 0 1em;
+}
+
+.turkey.dark-mode nav {
+  color: white;
+  background: black;
+}
+
+.turkey.dark-mode nav ul {
+  color: white;
+  background: black;
+}
+
+.turkey.dark-mode nav ul li {
+  color: white;
+}
+
+.turkey.dark-mode nav ul li a {
+  color: white;
+}
+
+.turkey.dark-mode nav ul li a:hover {
+  color: yellow;
+}
+
+.turkey .topSection  {
+  background: white;
+}
+
+.turkey.dark-mode .topSection h2 {
+  color: white;
+}
+
+.turkey.dark-mode .topSection  {
+  background: black;
+}
+
+.turkey.dark-mode .flexItems h4 {
+  color: white;
+}
+
+.turkey.dark-mode .flexItems ul {
+  color: white;
+}
+
+.turkey.dark-mode .country  {
+  background: black;
+}
+
+.turkey.dark-mode .list {
+  border: 1px solid white;
+}
+
+.dark-mode footer.turkey_footer {
+  color: white;
+}
+
+.turkey.dark-mode footer.turkey_footer {
+  background: rgba(0, 0, 0, 1);
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1em;
+}

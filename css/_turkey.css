@@ -1,4 +1,6 @@
 @import './_pageFader.css';
+@import './_turkey_dark.css';
+@import './switch.css';
 
 body.turkey {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
@@ -71,7 +73,6 @@ footer.turkey_footer {
 
 .turkey_footer hr {
   margin: 0 0 1.5em;
-  /* border: 2px dotted red; */
   outline: none;
 }
 
@@ -98,6 +99,14 @@ footer.turkey_footer {
 .turkey .flexItems {
   flex-basis: 45%;
   margin-top: 1em;
+}
+
+.turkey .flexItems {
+  flex-basis: 45%;
+  margin-top: 1em;
+  border: 1px solid rgba(98,30,2,0.75);
+  background: rgba(98,30,2,0.1);
+  border-radius: .5em;
 }
 
 .turkey .flexItems h4 {
