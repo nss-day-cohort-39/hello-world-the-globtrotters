@@ -1,11 +1,9 @@
-console.log("LandmarkDataProvider.js  ✅")
+// console.log("LeaderDataProvider.js  ✅")
 
 const leaders = [
-  {
-    leader: "Mustafa Kemal Atatürk",
-    leader: "Abdülhalik Renda",
-    leader: "Celâl Bayar"
-  }
+  "Mustafa Kemal Atatürk",
+  "Abdülhalik Renda",
+  "Celâl Bayar"
 ]
 
 export const useLeaders = () => {

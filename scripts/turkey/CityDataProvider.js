@@ -1,11 +1,9 @@
-console.log("CityDataProvider.js  ✅")
+// console.log("CityDataProvider.js  ✅")
 
 const cities = [
-  {
-    city: "Istanbul",
-    city: "Ankara",
-    city: "Bodrum"
-  }
+  "Istanbul",
+  "Ankara",
+  "Bodrum"
 ]
 
 export const useCities = () => {
