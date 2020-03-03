@@ -1,4 +1,4 @@
-console.log("scripts/turkey/CityDataProvider.js  ✅")
+console.log("CityDataProvider.js  ✅")
 
 const cities = [
   {

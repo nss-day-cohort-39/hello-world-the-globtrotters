@@ -1,4 +1,4 @@
-console.log("scripts/turkey/LandmarkDataProvider.js  ✅")
+console.log("LandmarkDataProvider.js  ✅")
 
 const landmarks = [
   {
