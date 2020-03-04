@@ -69,7 +69,7 @@ body.turkey {
   background: var(--white);
 }
 
-.turkey .list {
+.turkey .panel {
   border: none;
   background: rgba(255, 73, 0, 0.25);
   border-radius: var(--borderRad);
@@ -77,31 +77,23 @@ body.turkey {
   padding: 0.9em 0em 0.7em;
 }
 
-/* .turkey .list h4 {
-  text-align: center;
-  margin: .5em auto 0;
-  font-weight: 400;
-} */
-
-.turkey .list ul {
+.turkey .panel ul {
   text-align: left;
   margin: 0.5em 0em 0;
-  /* padding: 0em 0.75em 0 0; */
 }
 
-.turkey .list ul li {
+.turkey .panel ul li {
   text-align: left;
   font-weight: 200;
   margin-left: -0.4em;
   padding-left: 0em;
-  font-size: .9em;
-  margin: 0em -0.5em 0em 0;
+  font-size: .8em;
   margin-bottom: 0.15em;
   padding: 0em 0.75em 0 0;
-  margin-left: -0.5em;
+  margin-left: -0.7em;
 }
 
-footer.turkey_footer {
+footer {
   background: rgba(255, 255, 255, .5);
   font-size: 1em;
   border-bottom-left-radius: var(--borderRad);
@@ -110,13 +102,13 @@ footer.turkey_footer {
   margin: 0em auto 0em;
 }
 
-.turkey_footer hr {
+footer hr {
   margin: 0 0 1.5em;
   outline: none;
 }
 
-.turkey_footer h4,
-.turkey_footer p {
+footer h4,
+footer p {
   color: rgba(0, 0, 0, 0.7);
   letter-spacing: 0.075em;
   line-height: 1;
@@ -125,7 +117,7 @@ footer.turkey_footer {
   ;
 }
 
-.turkey_footer h4 {
+footer h4 {
   margin: 0 0 .5em;
 }
 
@@ -135,18 +127,19 @@ footer.turkey_footer {
   justify-content: space-evenly;
 }
 
-.turkey .list {
+.turkey .panel {
   flex-basis: 42.5%;
 }
 
-.turkey .list h4 {
+.turkey .panel h4 {
   text-align: left;  
   margin: 0em 0 0em 1em;
   font-weight: 400;
+  font-size: 0.8em;
 }
 
 @media (min-width: 900px) {
-  .turkey .list {
+  .turkey .panel {
     flex-basis: 20%;
     margin: 0em .25em 0em;
     padding: 1em 0.5em;
@@ -154,7 +147,7 @@ footer.turkey_footer {
 }
 
 @media (max-width: 450px) {
-  .turkey .list {
+  .turkey .panel {
     flex-basis: 100%;
     margin: 0em 1em 1em;
   }
