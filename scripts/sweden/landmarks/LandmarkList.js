@@ -4,7 +4,7 @@ import { useLandmarks } from "./LandmarkDataProvider.js"
 
 const LandmarkList = () => {
 
-    const landmarkElement = document.querySelector(".swedish__landmark__container")
+    const landmarkElement = document.querySelector(".swedenLandmarks")
     const landmarks = useLandmarks()
 
     let landmarkHTMLRepresentations = ""
@@ -13,6 +13,7 @@ const LandmarkList = () => {
     }
 
         landmarkElement.innerHTML = `
+        <h4>Landmarks</h4>
         ${landmarkHTMLRepresentations}
 `   
 }

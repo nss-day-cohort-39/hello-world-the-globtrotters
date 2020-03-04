@@ -12,10 +12,12 @@
     animation-name: border-change;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    border: 2px solid black;
+    text-align: center;
 }
 /* Styling for Swedish cities section */
 
-.swedenItems__cities__list {
+.swedenCities__list {
     display: flex;
     margin: 0em 1em;
     justify-content: space-between;
@@ -32,15 +34,15 @@
 
 /* Styling for Swedish landmarks section */
 
-.swedish__landmark__container {
+.swedenLandmarks {
     text-align: center;
 }
 
-.swedish__landmark__names {
+.sweden--landmark--name {
     font-weight: bold;
 }
 
-.swedish__landmark__description {
+.sweden--landmark--description {
     font-weight: lighter;
     font-style: italic;
     margin-bottom: .2em;
@@ -48,17 +50,17 @@
 
 /* Styling for Swedish landmarks section */
 
-.swedish__leader__list {
+.swedenItems__leaders__list {
     display: flex;
     margin: 0em 1em;
     justify-content: space-between;
 }
 
-.swedish__leader__names { 
+.sweden--leader--name { 
     font-weight: bold;
 }
 
-.swedish__leader__title {
+.sweden--leader--title {
     font-weight: lighter;
     font-style: italic;
 }
