@@ -10,6 +10,10 @@
 .australia > main > header > nav > ul > li > a.australia {
   color: var(--blue-md);
 }
+
+.australia > main > header > nav > ul > li > a.australia {
+  color: var(--blue-md);
+}
 .turkey > main > header > nav > ul > li > a.turkey {
   color: var(--blue-md);
 }

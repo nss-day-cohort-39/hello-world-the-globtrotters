@@ -18,6 +18,13 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+    document.querySelector("#button-australia").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#dialog-australia")
+            theDialog.showModal()
+        }
+    )
     document.querySelector("#button-sweden").addEventListener(
         "click",
         theClickEvent => {
