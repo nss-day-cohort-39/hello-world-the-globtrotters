@@ -12,10 +12,10 @@ const CityList = () => {
         cityHTMLRepresentations += City(cityObjects)
     }
 
-        cityElement.innerHTML = `
+    cityElement.innerHTML = `
         <h4>Major Cities</h4>
         ${cityHTMLRepresentations}
-`   
+`
 }
 
 export default CityList

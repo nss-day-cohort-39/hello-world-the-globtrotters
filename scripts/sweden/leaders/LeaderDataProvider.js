@@ -1,15 +1,15 @@
 const swedishLeaders = [
     {
-    name:"Silvia Sommerlath",
-    title: "Queen"
+        name: "Silvia Sommerlath",
+        title: "Queen"
     },
     {
-    name:"King Carl XVI Gustaf",
-    title: "King"
+        name: "King Carl XVI Gustaf",
+        title: "King"
     },
     {
-    name:"Stefan Löfven",
-    title: "Prime Minister"
+        name: "Stefan Löfven",
+        title: "Prime Minister"
     },
 ]
 

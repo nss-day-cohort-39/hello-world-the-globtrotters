@@ -12,10 +12,10 @@ const LandmarkList = () => {
         landmarkHTMLRepresentations += Landmark(landmarkObjects)
     }
 
-        landmarkElement.innerHTML = `
+    landmarkElement.innerHTML = `
         <h4>Landmarks</h4>
         ${landmarkHTMLRepresentations}
-`   
+`
 }
 
 export default LandmarkList

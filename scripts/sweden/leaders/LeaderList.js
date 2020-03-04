@@ -4,7 +4,7 @@ import { useLeaders } from './LeaderDataProvider.js';
 
 const LeaderList = () => {
 
-    const leaderElement = document.querySelector(".swedenItems__leaders")
+    const leaderElement = document.querySelector(".swedenLeaders")
     const leaders = useLeaders()
 
     let leaderHTMLRepresentations = ""
@@ -12,9 +12,10 @@ const LeaderList = () => {
         leaderHTMLRepresentations += Leader(leaderObjects)
     }
 
-        leaderElement.innerHTML = `
+    leaderElement.innerHTML = `
+        <h4>Leaders</h4>
         ${leaderHTMLRepresentations}
-`   
+`
 }
 
 export default LeaderList
