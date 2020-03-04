@@ -2,25 +2,70 @@
     background-color: rgba(67, 114, 201, 0.322);
 }
 
-.sweden__items {
+@keyframes border-change {
+    0% {border-color: black;}
+    50% {border-color: rgb(177, 93, 93);}
+    100% {border-color: black}
+    }
+
+.swedenItems {
     animation-name: border-change;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+/* Styling for Swedish cities section */
 
-@keyframes border-change {
-0% {border-radius: 0em;
-    border-color: black;}
-50% {border-radius: 1em;
-    border-color: rgb(73, 73, 126);
-border-width: .2em;}
-100% {border-radius: 0em;
-    border-color: black}
+.swedish__city__list {
+    display: flex;
+    margin: 0em 1em;
+    justify-content: space-between;
 }
+
+.swedish__city__names { 
+    font-weight: bold;
+}
+
+.swedish__city__population {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* Styling for Swedish landmarks section */
+
+.swedish__landmark__container {
+    text-align: center;
+}
+
+.swedish__landmark__names {
+    font-weight: bold;
+}
+
+.swedish__landmark__description {
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: .2em;
+}
+
+/* Styling for Swedish landmarks section */
+
+.swedish__leader__list {
+    display: flex;
+    margin: 0em 1em;
+    justify-content: space-between;
+}
+
+.swedish__leader__names { 
+    font-weight: bold;
+}
+
+.swedish__leader__title {
+    font-weight: lighter;
+    font-style: italic;
+}
+
 
 .sweden__footer {
     width: 90% auto;
-
 }
 
 .footer__sweden__list {
