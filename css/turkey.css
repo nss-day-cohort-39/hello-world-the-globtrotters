@@ -37,12 +37,8 @@ body.turkey {
   margin: 0 auto 0.5em;
 }
 
-.turkey header label {
-  /*  */
-}
-
 .turkey main {
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 1);
   text-align: center;
   padding: 0em 0 0em;
   border-radius: 10px;
@@ -54,6 +50,9 @@ body.turkey {
 
 .turkey .topSection h2 {
   margin: .5em 0 .5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
 }
 
 .turkey .country  {
@@ -61,31 +60,44 @@ body.turkey {
 }
 
 .turkey .list {
-  border: 1px solid black;
+  border: none;
+  background: rgba(132, 38, 0, 0.2);
+  border-radius: .5em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
-.turkey .list h4 {
+/* .turkey .list h4 {
   text-align: center;
   margin: .5em auto 0;
   font-weight: 400;
-}
+} */
 
 .turkey .list ul {
   text-align: left;
-  margin: 0.5em 0 1em;
+  margin: 0em -0.5em 0 0;
+  /* padding: 0em 0.75em 0 0; */
 }
 
 .turkey .list ul li {
   text-align: left;
+  font-weight: 200;
+  margin-left: -0.4em;
+  padding-left: 0em;
+  font-size: .85em;
+  margin: 0em -0.5em 0em 0;
+  margin-bottom: 0.15em;
+  padding: 0em 0.75em 0 0;
+  margin-left: -0.5em;
 }
 
 footer.turkey_footer {
   background: rgba(255, 255, 255, .5);
-  /* width: 90%; */
-  margin: 0 auto;
   font-size: 1em;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  padding: 0em 0 1em;
+  margin: 1em auto 0em;
 }
 
 .turkey_footer hr {
@@ -93,15 +105,17 @@ footer.turkey_footer {
   outline: none;
 }
 
-.turkey_footer h4 {
+.turkey_footer h4,
+.turkey_footer p {
+  color: rgba(0, 0, 0, 0.75);
+  letter-spacing: 0.075em;
+  line-height: 1;
   margin: 0 0 .5em;
+  font-size: .85em;
+  ;
 }
 
-.turkey_footer__padding {
-  padding: 1em;
-}
-
-.turkey_footer__padding p {
+.turkey_footer h4 {
   margin: 0 0 .5em;
 }
 
@@ -109,32 +123,27 @@ footer.turkey_footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-bottom: 1.3em;
 }
 
-.turkey .flexItems {
-  flex-basis: 45%;
-  margin-top: 1em;
-  border: 1px solid rgba(98,30,2,0.75);
-  background: rgba(98,30,2,0.1);
-  border-radius: .5em;
+.turkey .list {
+  flex-basis: 42.5%;
 }
 
-.turkey .flexItems h4 {
+.turkey .list h4 {
   text-align: left;  
   margin: 1em 0 0em 1em;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 @media (min-width: 900px) {
-  .turkey .flexItems {
+  .turkey .list {
     flex-basis: 20%;
     margin: 0em .25em 0em;
   }
 }
 
-@media (max-width: 550px) {
-  .turkey .flexItems {
+@media (max-width: 450px) {
+  .turkey .list {
     flex-basis: 100%;
     margin: 0em 1em 1em;
   }

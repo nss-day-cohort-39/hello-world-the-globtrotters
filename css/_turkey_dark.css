@@ -1,3 +1,7 @@
+:root {
+  --orange: hsla(31, 100%, 50%, 1.0);
+}
+
 body.turkey.dark-mode {
   font-family: Helvetica, Tahoma, Geneva, Verdana, sans-serif;
   background: black;
@@ -6,79 +10,148 @@ body.turkey.dark-mode {
   animation-timing-function: ease-in;
 }
 
-.turkey.dark-mode header   {
+.turkey.dark-mode header {
   text-align: center;
   padding: 1em 0 .5em;
   color: var(--white);
   background: transparent;
 }
 
+.turkey.dark-mode header h1  {
+  color: var(--blue-md);
+  font-weight: 200;
+}
+
 .turkey.dark-mode main {
-  background: rgba(0, 0, 0, .5);
+  background: transparent;
   text-align: center;
   padding: 0em 0 0em;
-  border: 1px solid var(--white);
+  border: 1px solid var(--blue-md);
   border-radius: 10px;
 }
 
 .turkey.dark-mode nav {
-  color: var(--white);
+  color: var(--blue-md);
   background: black;
 }
 
 .turkey.dark-mode nav ul {
-  color: var(--white);
+  color: var(--blue-md);
   background: black;
 }
 
 .turkey.dark-mode nav ul li {
-  color: var(--white);
+  /* color: var(--blue-md); */
+  padding: 0.5em 1em 0.5em;
+  color: white;
+  background: rgba(38, 38, 38, 0.5);
+  font-weight: normal;
+  border-radius: 2em;
+}
+
+.turkey.dark-mode nav ul li:hover {
+  color: var(--orange);
+  background: rgba(38, 38, 38, 0.75);
+  cursor: pointer;
+}
+
+.turkey.dark-mode nav ul li:hover .index,
+.turkey.dark-mode nav ul li:hover .sweden,
+.turkey.dark-mode nav ul li:hover .greece,
+.turkey.dark-mode nav ul li:hover .thailand {
+  color: var(--orange);
+}
+
+.turkey.dark-mode nav ul li a.turkey {
+  color: var(--orange);
+}
+
+.turkey.dark-mode nav ul li:active {
+  color: var(--orange);
+  background: rgba(38, 38, 38, 0.75);
 }
 
 .turkey.dark-mode nav ul li a {
-  color: var(--white);
+  /* color: var(--orange); */
+  color: var(--blue-md);
 }
 
 .turkey.dark-mode nav ul li a:hover {
-  color: yellow;
+  color: var(--orange);
 }
 
 .turkey .topSection  {
-  background: var(--white);
+  background: var(--blue-md);
 }
 
 .turkey.dark-mode .topSection h2 {
-  color: var(--white);
+  color: var(--orange);
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
 }
 
 .turkey.dark-mode .topSection  {
-  background: black;
-}
-
-.turkey.dark-mode .flexItems h4 {
-  color: var(--white);
-}
-
-.turkey.dark-mode .flexItems ul {
-  color: var(--white);
-}
-
-.turkey.dark-mode .country  {
-  /* background:var(--black); */
   background: transparent;
 }
 
 .turkey.dark-mode .list {
-  border: 1px solid var(--white);
+  background: rgba(38, 122, 140, 0.2);
+  /* border: 1px solid rgba(255, 132, 0, 0.25); */
+  /* border-color: hsla(31, 100%, 50%, 0.5); */
+  border: none;
+  font-size: .85em;
+  padding: 0.25em 1em 0em 0.25em;
 }
 
-.dark-mode footer.turkey_footer {
+.turkey.dark-mode .list h4 {
+  color: var(--orange);
+  opacity: 0.75;
+  margin-bottom: 0.5em;
+}
+
+.turkey.dark-mode .list ul {
   color: var(--white);
+  opacity: 0.85;
+  line-height: 1.65;
+  font-size: 1.0em;
+  font-weight: 300;
+  margin-left: -0.3em;
+  padding-bottom: 1em;
+}
+
+.turkey.dark-mode .list ul li {
+  margin-left: -0.5em;
+  opacity: .75;
+  padding-left: -0.3em;
+}
+
+
+.turkey.dark-mode .country {
+  background: transparent;
 }
 
 .turkey.dark-mode footer.turkey_footer {
+  color: var(--blue-md);
   background: rgba(0, 0, 0, 1);
-  /* width: 90%; */
-  margin: 0 auto;
+  margin: 1em auto;
   font-size: 1em;
+  /* margin: 1em auto 1.25em; */
+  line-height: 1.5;
+}
+
+.turkey.dark-mode .turkey_footer h4,
+.turkey.dark-mode .turkey_footer p {
+  color: white;
+  opacity: 0.3;
+  letter-spacing: 0.07em;
+  font-weight: lighter;
+  font-size: 0.85em;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: .5em;
+}
+
+.turkey.dark-mode .turkey_footer h4 {
+  font-weight: normal;
 }
