@@ -1,6 +1,6 @@
 const Landmarks = (LandmarkObject) => {
   return `
-    <li>${LandmarkObject.city}</li>
+    <li>${LandmarkObject.landmark}</li>
   `
 }
 
