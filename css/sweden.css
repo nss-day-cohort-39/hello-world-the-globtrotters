@@ -90,11 +90,11 @@
 
 /* Footer styling */
 
-.sweden__footer {
+.swedenFooter {
     width: 90% auto;
 }
 
-.footer__sweden__list {
+.swedenFooter__list {
     display:flex;
     justify-content: space-evenly;
     padding: 1.3em 0;
@@ -102,7 +102,7 @@
     background-color: rgb(206, 206, 206);
 }
 
-.footer__sweden__list__items {
+.swedenFooter--list--items {
     font-weight: bolder;
 }
 
