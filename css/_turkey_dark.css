@@ -8,7 +8,7 @@ body.turkey.dark-mode {
 
 .turkey.dark-mode header   {
   text-align: center;
-  padding: 1em 0;
+  padding: 1em 0 .5em;
   color: var(--white);
   background: transparent;
 }
