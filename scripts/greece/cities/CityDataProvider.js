@@ -1,13 +1,13 @@
 const CitiesList = [
-{
-    city: "Athens"
-},
-{
-    city: "Thessalonoki"
-},
-{
-    city: "Chania"
-}
+    {
+        city: "Athens"
+    },
+    {
+        city: "Thessalonoki"
+    },
+    {
+        city: "Chania"
+    }
 ]
 
 export const useCities = () => {

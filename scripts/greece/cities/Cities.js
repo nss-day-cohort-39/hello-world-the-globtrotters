@@ -1,8 +1,6 @@
 
-
-
 const Cities = (CityObject) => {
-    return `
+  return `
       <li>${CityObject.city}</li>
     `
 }
