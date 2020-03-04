@@ -1,0 +1,154 @@
+@import './_pageFader.css';
+@import './_turkey_dark.css';
+@import './switch.css';
+
+:root {
+  --borderRad: .25em;
+}
+
+
+
+body.turkey {
+  font-family: Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(98,30,1);
+  background: linear-gradient(
+    0deg, 
+    rgba(98,30,2,1) 0%,
+    rgba(98,30,2,1) 20%, 
+    rgba(247,169,18,1) 40%, 
+    rgba(247,169,18,1) 50%, 
+    rgba(227,77,10,1) 55%, 
+    rgba(227,77,10,1) 60%, 
+    rgba(87,130,38,1) 80%, 
+    rgba(87,130,38,1) 100%) fixed; 
+    animation-name: turkey__backFader;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+.turkey header {
+  background: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 1em 2em 0.5em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top-left-radius: var(--borderRad);
+  border-top-right-radius: var(--borderRad);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.turkey header h1 {
+  text-align: left;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.turkey main {
+  background: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 0em 0 0em;
+  border-radius: var(--borderRad);
+}
+
+.turkey .topSection  {
+  background: var(--white);
+}
+
+.turkey .topSection h2 {
+  margin: .5em 0 .5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.turkey .country  {
+  background: var(--white);
+}
+
+.turkey .panel {
+  border: none;
+  background: rgba(255, 73, 0, 0.25);
+  border-radius: var(--borderRad);
+  margin-bottom: 1em;
+  padding: 0.9em 0em 0.7em;
+}
+
+.turkey .panel ul {
+  text-align: left;
+  margin: 0.5em 0em 0;
+}
+
+.turkey .panel ul li {
+  text-align: left;
+  font-weight: 200;
+  margin-left: -0.4em;
+  padding-left: 0em;
+  font-size: .8em;
+  margin-bottom: 0.15em;
+  padding: 0em 0.75em 0 0;
+  margin-left: -0.7em;
+}
+
+footer {
+  background: rgba(255, 255, 255, .5);
+  font-size: 1em;
+  border-bottom-left-radius: var(--borderRad);
+  border-bottom-right-radius: var(--borderRad);
+  padding: 1em 0 1em;
+  margin: 0em auto 0em;
+}
+
+footer hr {
+  margin: 0 0 1.5em;
+  outline: none;
+}
+
+footer h4,
+footer p {
+  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: 0.075em;
+  line-height: 1;
+  margin: 0 0 .5em;
+  font-size: .85em;
+  ;
+}
+
+footer h4 {
+  margin: 0 0 .5em;
+}
+
+.turkey .flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.turkey .panel {
+  flex-basis: 42.5%;
+}
+
+.turkey .panel h4 {
+  text-align: left;  
+  margin: 0em 0 0em 1em;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+@media (min-width: 900px) {
+  .turkey .panel {
+    flex-basis: 20%;
+    margin: 0em .25em 0em;
+    padding: 1em 0.5em;
+  }
+}
+
+@media (max-width: 450px) {
+  .turkey .panel {
+    flex-basis: 100%;
+    margin: 0em 1em 1em;
+  }
+}
