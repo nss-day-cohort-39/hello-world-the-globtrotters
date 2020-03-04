@@ -1,4 +1,4 @@
-.sweden__container {
+.swedenContainer {
     background-color: rgba(67, 114, 201, 0.322);
 }
 
@@ -12,35 +12,38 @@
     animation-name: border-change;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    border: 2px solid black;
+    text-align: center;
 }
+
 /* Styling for Swedish cities section */
 
-.swedish__city__list {
+.swedenCities__list {
     display: flex;
     margin: 0em 1em;
     justify-content: space-between;
 }
 
-.swedish__city__names { 
+.sweden--city--name { 
     font-weight: bold;
 }
 
-.swedish__city__population {
+.sweden--city--population {
     font-weight: lighter;
     font-style: italic;
 }
 
 /* Styling for Swedish landmarks section */
 
-.swedish__landmark__container {
+.swedenLandmarks {
     text-align: center;
 }
 
-.swedish__landmark__names {
+.sweden--landmark--name {
     font-weight: bold;
 }
 
-.swedish__landmark__description {
+.sweden--landmark--description {
     font-weight: lighter;
     font-style: italic;
     margin-bottom: .2em;
@@ -48,27 +51,50 @@
 
 /* Styling for Swedish landmarks section */
 
-.swedish__leader__list {
+.swedenLeaders__list {
     display: flex;
     margin: 0em 1em;
     justify-content: space-between;
 }
 
-.swedish__leader__names { 
+.sweden--leader--name { 
     font-weight: bold;
 }
 
-.swedish__leader__title {
+.sweden--leader--title {
     font-weight: lighter;
     font-style: italic;
 }
 
 
-.sweden__footer {
+/* Itinerary styling */
+
+.swedenItinerary {
+    margin: 2em;
+}
+.swedenItinerary__title {
+    font-weight: 700;
+    text-align: center;
+}
+.swedenItinerary__list {
+    margin-top: 1em;
+    border: solid 2px black;
+    border-radius: 1em;
+}
+
+.swedenItinerary--list--item {
+    margin: .5em 1.5em;
+    font-style: italic;
+}
+
+
+/* Footer styling */
+
+.swedenFooter {
     width: 90% auto;
 }
 
-.footer__sweden__list {
+.swedenFooter__list {
     display:flex;
     justify-content: space-evenly;
     padding: 1.3em 0;
@@ -76,24 +102,7 @@
     background-color: rgb(206, 206, 206);
 }
 
-.footer__sweden__list__items {
+.swedenFooter--list--items {
     font-weight: bolder;
 }
 
-.sweden__itinerary {
-    margin: 2em;
-}
-.sweden__itinerary__title {
-    font-weight: 700;
-    text-align: center;
-}
-.sweden__itinerary__list {
-    margin-top: 1em;
-    border: solid 2px black;
-    border-radius: 1em;
-}
-
-.sweden__itinerary__list__items {
-    margin: .5em 1.5em;
-    font-style: italic;
-}
