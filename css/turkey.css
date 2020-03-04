@@ -3,8 +3,8 @@
 @import './switch.css';
 
 body.turkey {
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
-  background: rgb(98,30,2);
+  font-family: Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(98,30,1);
   background: linear-gradient(
     0deg, 
     rgba(98,30,2,1) 0%,
@@ -14,29 +14,42 @@ body.turkey {
     rgba(227,77,10,1) 55%, 
     rgba(227,77,10,1) 60%, 
     rgba(87,130,38,1) 80%, 
-    rgba(87,130,38,1) 100%); 
+    rgba(87,130,38,1) 100%) fixed; 
     animation-name: turkey__backFader;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-timing-function: ease-in;
 }
 
 .turkey header {
   background: rgba(255, 255, 255, 1);
   text-align: center;
-  padding: 1em 0;
+  padding: 1em 0 0.5em;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.turkey header h1 {
+  text-align: center;
+  margin: 0 auto 0.5em;
+}
+
+.turkey header label {
+  /*  */
 }
 
 .turkey main {
   background: rgba(255, 255, 255, .5);
   text-align: center;
-  padding: 0em 0 1em;
+  padding: 0em 0 0em;
+  border-radius: 10px;
 }
 
 .turkey .topSection  {
-  background: white;
+  background: var(--white);
 }
 
 .turkey .topSection h2 {
@@ -44,7 +57,7 @@ body.turkey {
 }
 
 .turkey .country  {
-  background: white;
+  background: var(--white);
 }
 
 .turkey .list {
@@ -66,12 +79,13 @@ body.turkey {
   text-align: left;
 }
 
-
 footer.turkey_footer {
   background: rgba(255, 255, 255, .5);
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
   font-size: 1em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .turkey_footer hr {
@@ -91,17 +105,11 @@ footer.turkey_footer {
   margin: 0 0 .5em;
 }
 
-
 .turkey .flexbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-bottom: 1.3em;
-}
-
-.turkey .flexItems {
-  flex-basis: 45%;
-  margin-top: 1em;
 }
 
 .turkey .flexItems {
@@ -121,14 +129,13 @@ footer.turkey_footer {
 @media (min-width: 900px) {
   .turkey .flexItems {
     flex-basis: 20%;
-    margin: 1em .25em 0em;
+    margin: 0em .25em 0em;
   }
 }
-
 
 @media (max-width: 550px) {
   .turkey .flexItems {
     flex-basis: 100%;
-    margin: 1em 1em 0em;
+    margin: 0em 1em 1em;
   }
 }
