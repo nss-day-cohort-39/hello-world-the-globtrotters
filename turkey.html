@@ -10,10 +10,8 @@
   <main class="container">
     <header>
       <h1>Hello World!</h1>  
-      <label class="switch darkModeSwitch">
-        <input type="checkbox" onclick="darkMode()">
-        <span class="slider round"></span>
-      </label>
+      <button class="darkToggle" type="checkbox" onclick="darkMode()">On/Off</button>
+
     </header>
 
     <nav>
@@ -76,11 +74,5 @@
 
 
   <script type="module" src="scripts/turkey/turkey.js"></script>
-  <script>
-    function darkMode() {
-      var element = document.body;
-      element.classList.toggle("dark-mode");
-    }
-  </script>
 </body>
 </html>

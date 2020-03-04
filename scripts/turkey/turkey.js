@@ -1,7 +1,6 @@
 // const turkey = () => {}
 
 import darkMode from "./darkMode.js"
-darkMode()
 
 import CityList from "./cities/CityList.js"
 import LandmarkList from "./landmarks/LandmarkList.js"
