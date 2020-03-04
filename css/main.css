@@ -1,9 +1,10 @@
-@import './_colors.css';
-@import './_nav.css';
-@import './home.css';
-@import './turkey.css';
-@import './sweden.css';
-@import './greece.css';
+@import "./_colors.css";
+@import "./_nav.css";
+@import "./home.css";
+@import "./turkey.css";
+@import "./sweden.css";
+@import "./greece.css";
+@import "./thailand.css";
 
 body {
   background: whitesmoke;

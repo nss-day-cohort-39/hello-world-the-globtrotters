@@ -1,0 +1,37 @@
+.footer__thailand {
+    margin: auto;
+    width: 93%;
+}
+
+.footer__thailand__list {
+    background-color: #4b314b;
+    border: 1px solid #4b314b;
+    border-radius: 5px;
+    color: whitesmoke;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.thailandHeader {
+    color: #4b314b;
+    margin: 10px;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 72px;
+}
+
+.thailandContainer {
+    border: 10px groove #4b314b;
+    border-radius: 5px;
+}
+
+.thaiList {
+    margin-top: 20px;
+}
+
+.thailandPage {
+    background-color: whitesmoke;
+    text-emphasis-color: whitesmoke;
+}
