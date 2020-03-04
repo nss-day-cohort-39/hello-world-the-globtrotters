@@ -9,17 +9,14 @@
 <body class="turkey">
   <main class="container">
     <header>
-      <label class="switch darkModeSwitch">
-        <input type="checkbox" onclick="darkMode()">
-        <span class="slider round"></span>
-      </label>
-      <h1 class="mainHead">Hello World!</h1>  
+      <h1>Hello World!</h1>  
+      <button class="darkToggle" type="checkbox" onclick="darkMode()">On/Off</button>
+
     </header>
-    
+
     <nav>
       <ul>
         <li><a class="index" href="index.html">Home</a></li>
-        <!-- <li><a class="australia" href="australia.html">Australia</a></li> -->
         <li><a class="turkey" href="turkey.html">Turkey</a></li>
         <li><a class="sweden" href="sweden.html">Sweden</a></li>
         <li><a class="greece" href="greece.html">Greece</a></li>
@@ -36,30 +33,30 @@
 
       <div class="flexbox">
 
-        <div class="list flexItems">
+        <div class="panel flexItems">
           <h4>Major Cities</h4>
-          <ul class="cities">
+          <ul class="panel__cities">
 
           </ul>
         </div>
-  
-        <div class="list flexItems">
+
+        <div class="panel flexItems">
           <h4>Landmarks</h4>
-          <ul class="landmarks">
+          <ul class="panel__landmarks">
             
           </ul>
         </div>
 
-        <div class="list flexItems">
+        <div class="panel flexItems">
           <h4>Heads of State</h4>
-          <ul class="leaders">
+          <ul class="panel__leaders">
             
           </ul>
         </div>
 
-        <div class="list flexItems">
+        <div class="panel flexItems">
           <h4>Itinerary</h4>
-          <ul class="itinerary">
+          <ul class="panel__itinerary">
             
           </ul>
         </div>
@@ -67,23 +64,15 @@
       </div>
 
     </section>
-    
-  </main>
 
-  <footer class="turkey_footer">
-    <div class="turkey_footer__padding">
+    <footer>
       <h4>Drew Harper</h4>
       <p>Oakland, California</p>
       <p>Ui/Ux Designer</p>
-    </div>
-  </footer>
+    </footer>
+  </main>
 
-  <script type="module" src="./scripts/turkey/turkey.js"></script>
-  <script>
-    function darkMode() {
-      var element = document.body;
-      element.classList.toggle("dark-mode");
-    }
-  </script>
+
+  <script type="module" src="scripts/turkey/turkey.js"></script>
 </body>
 </html>

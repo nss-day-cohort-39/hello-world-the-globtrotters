@@ -1,89 +1,15 @@
-const turkey = () => {}
+// const turkey = () => {}
 
 import darkMode from "./darkMode.js"
-darkMode
 
-import { useCities } from "./CityDataProvider.js"
-import { useLandmarks } from "./LandmarkDataProvider.js"
-import { useLeaders } from "./LeaderDataProvider.js"
-import { useItinerary } from "./ItineraryDataProvider.js"
+import CityList from "./cities/CityList.js"
+import LandmarkList from "./landmarks/LandmarkList.js"
+import LeaderList from "./leaders/LeaderList.js"
+import ItineraryList from "./itineraries/ItineraryList.js"
 
-useCities()
-useLandmarks()
-useLeaders()
-useItinerary()
+CityList()
+LandmarkList()
+LeaderList()
+ItineraryList()
 
-const citiesList = () => {
-  const City = cityObject => {
-    return `<li>${cityObject}</li>`
-  }
-  const citiesUl = document.querySelector(".turkey .cities")
-  const cityObjectArray = useCities()
-  let cityHTMLRepresentations = "" 
-  
-  for (const cityObject of cityObjectArray) {
-    citiesUl.innerHTML += City(cityObject)
-  }
-  
-  citiesUl.innerHTML += `
-    ${cityHTMLRepresentations}
-  `
-}
-
-const landmarksList = () => {
-  const Landmark = landmarkObject => {
-    return `<li>${landmarkObject}</li>`
-  }
-  const landmarksUl = document.querySelector(".turkey .landmarks")
-  const landmarkObjectArray = useLandmarks()
-  let landmarkHTMLRepresentations = ""
-
-  for (const landmarkObject of landmarkObjectArray) {
-    landmarksUl.innerHTML += Landmark(landmarkObject)
-  }
-
-  landmarksUl.innerHTML += `
-    ${landmarkHTMLRepresentations}
-  `
-}
-
-const leadersList = () => {
-  const Leader = leaderObject => {
-    return `<li>${leaderObject}</li>`
-  }
-  const leadersUl = document.querySelector(".turkey .leaders")
-  const leaderObjectArray = useLeaders()
-  let leaderHTMLRepresentations = ""
-
-  for (const leaderObject of leaderObjectArray) {
-    leadersUl.innerHTML += Leader(leaderObject)
-  }
-
-  leadersUl.innerHTML += `
-    ${leaderHTMLRepresentations}
-  `
-}
-
-const itineraryList = () => {
-  const Itinerary = itineraryObject => {
-    return `<li>${itineraryObject}</li>`
-  }
-  const itineraryUl = document.querySelector(".turkey .itinerary")
-  const itineraryObjectArray = useItinerary()
-  let itineraryHTMLRepresentations = ""
-
-  for (const itineraryObject of itineraryObjectArray) {
-    itineraryUl.innerHTML += Itinerary(itineraryObject)
-  }
-
-  itineraryUl.innerHTML += `
-    ${itineraryHTMLRepresentations}
-  `
-}
-
-citiesList()
-landmarksList()
-leadersList()
-itineraryList()
-
-export default turkey
+// export default turkey
