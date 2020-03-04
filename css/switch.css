@@ -1,3 +1,5 @@
+@import './_switchOverride.css'
+
 .darkModeSwitch {
   float: left;
   clear: left;
