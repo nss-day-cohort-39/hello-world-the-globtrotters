@@ -11,28 +11,28 @@ const initializeDetailButtonEvents = () => {
         )
     }
 
-    document.querySelector("#button-turkey").addEventListener(
+    document.querySelector(".cardTurkey").addEventListener(
         "click",
         theClickEvent => {
             const theDialog = document.querySelector("#dialog-turkey")
             theDialog.showModal()
         }
     )
-    document.querySelector("#button-sweden").addEventListener(
+    document.querySelector(".cardSweden").addEventListener(
         "click",
         theClickEvent => {
             const theDialog = document.querySelector("#dialog-sweden")
             theDialog.showModal()
         }
     )
-    document.querySelector("#button-greece").addEventListener(
+    document.querySelector(".cardGreece").addEventListener(
         "click",
         theClickEvent => {
             const theDialog = document.querySelector("#dialog-greece")
             theDialog.showModal()
         }
     )
-    document.querySelector("#button-thailand").addEventListener(
+    document.querySelector(".cardThailand").addEventListener(
         "click",
         theClickEvent => {
             const theDialog = document.querySelector("#dialog-thailand")

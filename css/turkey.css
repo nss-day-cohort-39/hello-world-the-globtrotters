@@ -9,7 +9,7 @@
 
 
 body.turkey {
-  font-family: Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Oxanium', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
   background: rgb(98,30,1);
   background: linear-gradient(
     0deg, 
@@ -143,6 +143,7 @@ footer h4 {
     flex-basis: 20%;
     margin: 0em .25em 0em;
     padding: 1em 0.5em;
+    /* background: red; */
   }
 }
 
@@ -150,5 +151,6 @@ footer h4 {
   .turkey .panel {
     flex-basis: 100%;
     margin: 0em 1em 1em;
+    /* background: green; */
   }
 }

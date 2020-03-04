@@ -22,12 +22,11 @@
 }
 
 nav {
- background: white;
-  padding: 1em 0 0;
+  /* background: white; */
 }
 
 nav ul {
-  background: white;
+  /* background: white; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -38,8 +37,8 @@ nav ul {
 nav ul li {
   list-style-type: none;
   font-weight: 200;
-  /* margin-bottom: 1em; */
-  margin: 0 .5em 1em;
+  margin: 1em .5em;
+  text-align: center;
 }
 
 @media (max-width: 320px) {
@@ -59,3 +58,7 @@ nav li a {
   color: var(--black);
 }
 
+footer nav {
+  font-size: 0.8em;
+  color: rgba(18, 18, 18, 0.55)
+}

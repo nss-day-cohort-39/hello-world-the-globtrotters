@@ -3,7 +3,7 @@
 }
 
 body.turkey.dark-mode {
-  font-family: Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Oxanium', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
   background: black;
   animation-name: turkey__backFader;
   animation-duration: 1s;
