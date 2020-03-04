@@ -4,7 +4,7 @@ import { useCities } from './CityDataProvider.js';
 
 const CityList = () => {
 
-    const cityElement = document.querySelector(".swedish__city__container")
+    const cityElement = document.querySelector(".swedenItems__cities")
     const cities = useCities()
 
     let cityHTMLRepresentations = ""

@@ -1,9 +1,9 @@
 const City = (city) => {
     return `
-    <div class="swedish__city__list">
-              <div class="swedish__city__names">${city.name}</div>
-              <div class="swedish__city__population">Population: ${city.population}</div>
-              </div>
+        <div class="swedenItems__cities__list">
+              <div class="sweden--city--name">${city.name}</div>
+              <div class="sweden--city--population">Population: ${city.population}</div>
+            </div>
 `
 }
 

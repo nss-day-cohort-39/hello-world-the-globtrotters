@@ -1,4 +1,4 @@
-.sweden__container {
+.swedenContainer {
     background-color: rgba(67, 114, 201, 0.322);
 }
 
@@ -15,17 +15,17 @@
 }
 /* Styling for Swedish cities section */
 
-.swedish__city__list {
+.swedenItems__cities__list {
     display: flex;
     margin: 0em 1em;
     justify-content: space-between;
 }
 
-.swedish__city__names { 
+.sweden--city--name { 
     font-weight: bold;
 }
 
-.swedish__city__population {
+.sweden--city--population {
     font-weight: lighter;
     font-style: italic;
 }
