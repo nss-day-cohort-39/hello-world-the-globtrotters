@@ -12,7 +12,7 @@ body.turkey.dark-mode {
 
 .turkey.dark-mode header {
   text-align: center;
-  padding: 1em 0 .5em;
+  /* padding: 1em 0 .5em; */
   color: var(--white);
   background: transparent;
 }
@@ -26,18 +26,18 @@ body.turkey.dark-mode {
   background: transparent;
   text-align: center;
   padding: 0em 0 0em;
-  border: 1px solid var(--blue-md);
-  border-radius: 10px;
+  border: 1px solid rgba(38, 122, 140, 0.5);
+  border-radius: var(--borderRad);
 }
 
 .turkey.dark-mode nav {
   color: var(--blue-md);
-  background: black;
+  background: transparent;
 }
 
 .turkey.dark-mode nav ul {
   color: var(--blue-md);
-  background: black;
+  background: transparent;
 }
 
 .turkey.dark-mode nav ul li {
@@ -46,7 +46,7 @@ body.turkey.dark-mode {
   color: white;
   background: rgba(38, 38, 38, 0.5);
   font-weight: normal;
-  border-radius: 2em;
+  border-radius: var(--borderRad);
 }
 
 .turkey.dark-mode nav ul li:hover {
@@ -101,7 +101,7 @@ body.turkey.dark-mode {
   /* border-color: hsla(31, 100%, 50%, 0.5); */
   border: none;
   font-size: .85em;
-  padding: 0.25em 1em 0em 0.25em;
+  padding: 1.0em 1em 0em 0.25em;
 }
 
 .turkey.dark-mode .list h4 {
@@ -133,11 +133,11 @@ body.turkey.dark-mode {
 
 .turkey.dark-mode footer.turkey_footer {
   color: var(--blue-md);
-  background: rgba(0, 0, 0, 1);
-  margin: 1em auto;
+  background: transparent;
+  margin: 1em auto 0;
   font-size: 1em;
-  /* margin: 1em auto 1.25em; */
   line-height: 1.5;
+  padding: 0em 0 1em;
 }
 
 .turkey.dark-mode .turkey_footer h4,
