@@ -22,10 +22,12 @@
 }
 
 nav {
-
+ background: white;
+  padding: 1em 0;
 }
 
 nav ul {
+  background: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
