@@ -15,6 +15,7 @@
     border: 2px solid black;
     text-align: center;
 }
+
 /* Styling for Swedish cities section */
 
 .swedenCities__list {
@@ -66,6 +67,27 @@
 }
 
 
+/* Itinerary styling */
+
+.swedenItinerary {
+    margin: 2em;
+}
+.swedenItinerary__title {
+    font-weight: 700;
+    text-align: center;
+}
+.swedenItinerary__list {
+    margin-top: 1em;
+    border: solid 2px black;
+    border-radius: 1em;
+}
+
+.swedenItinerary--list--item {
+    margin: .5em 1.5em;
+    font-style: italic;
+}
+
+
 /* Footer styling */
 
 .sweden__footer {
@@ -84,20 +106,3 @@
     font-weight: bolder;
 }
 
-.sweden__itinerary {
-    margin: 2em;
-}
-.sweden__itinerary__title {
-    font-weight: 700;
-    text-align: center;
-}
-.sweden__itinerary__list {
-    margin-top: 1em;
-    border: solid 2px black;
-    border-radius: 1em;
-}
-
-.sweden__itinerary__list__items {
-    margin: .5em 1.5em;
-    font-style: italic;
-}
