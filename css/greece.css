@@ -1,6 +1,6 @@
 .footer__greece {
   width: 90%;
-  margin: auto;
+  background-color: white;
 }
 
 .footer__greece__list {
@@ -13,4 +13,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 1em;
+  margin: auto;
+}
+.greeceBody {
+  background-color: rgb(212, 210, 206);
 }
