@@ -8,9 +8,9 @@ const LandmarksList = [
     {
         landmark: "White Tower"
     }
-    ]
-    
-    export const useLandmarks = () => {
-        return LandmarksList.slice()
-    }
+]
+
+export const useLandmarks = () => {
+    return LandmarksList.slice()
+}
 

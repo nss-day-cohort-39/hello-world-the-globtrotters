@@ -8,10 +8,10 @@ const LeadersList = [
     {
         leader: "Andreas Zaimis"
     }
-    ]
-    
-    export const useLeaders = () => {
-        return LeadersList.slice()
-    }
+]
 
-    
+export const useLeaders = () => {
+    return LeadersList.slice()
+}
+
+

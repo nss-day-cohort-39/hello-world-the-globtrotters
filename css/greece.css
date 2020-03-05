@@ -1,15 +1,16 @@
+.footer__greece {
+  width: 90%;
+  margin: auto;
+}
 
-
-  .footer__greece {
-      width: 90%;
-      margin: auto;
-    }
-    
-    .footer__greece__list {
-        
-        list-style-type: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        font-weight: bolder;
-  }
+.footer__greece__list {
+  color: whitesmoke;
+  background-color: rgb(68, 7, 253);
+  border: 10px rgb(68, 7, 253);
+  border-radius: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1em;
+}
